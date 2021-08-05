@@ -1,0 +1,44 @@
+h2,button{
+    font-family: 'Indie Flower', cursive;  
+}
+
+body{
+    background-color: lightslategrey;
+}
+
+.header_div{
+    background:honeydew;
+    color: maroon;
+}
+
+.header_div img{
+    width: 100px;
+}
+
+.main_div{
+    background:mediumturquoise;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer_div img{
+    width:70px;
+}
+
+#camera,#preview{
+    border: 2px solid bisque; 
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 15px black;
+    background-color:maroon;
+ }
+ 
+ .footer_div{
+     margin-bottom: 30px;
+ }
+ 
+ .footer_div h4{
+     background: mintcream;
+     border-radius: 10px;
+     padding: 5px;
+ }

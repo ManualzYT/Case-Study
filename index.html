@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Case study</title>
+    <title>MobileNet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,19 +19,23 @@
     <center>
 
     <div class="col-xs-12 header_div">
-      <h2>Case study app
+      <h2>Image identification app
         <img src="logo.gif">
       </h2> 
     </div>
       <div class="col-sm-6 col-xs-12 main_div">
         <label>webcam view</label>
         <div id="camera"></div>
+        <br>
+        <br>
         <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
       </div>
 
       <div class="col-sm-6 col-xs-12 main_div">
         <label>Snapshot</label>
-        <div id="camera"></div>
+        <div id="preview"></div>
+        <br>
+        <br>
         <button onclick="check();" class="btn btn-success">Identify image</button>
       </div>
     </center>
